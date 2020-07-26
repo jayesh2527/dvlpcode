@@ -1,0 +1,32 @@
+https://www.youtube.com/watch?v=Z3SYDTMP3ME&t=1445s
+https://www.youtube.com/watch?v=Ia-UEYYR44s
+https://www.youtube.com/watch?v=Ia-UEYYR44s
+
+To access your instance:
+Open an SSH client. (find out how to connect using PuTTY)
+Locate your private key file (LenovoLaptop.pem). The wizard automatically detects the key you used to launch the instance.
+Your key must not be publicly viewable for SSH to work. Use this command if needed:
+chmod 400 LenovoLaptop.pem
+Connect to your instance using its Public DNS:
+ec2-3-16-169-140.us-east-2.compute.amazonaws.com
+Example:
+ssh -i "LenovoLaptop.pem" ubuntu@ec2-3-16-169-140.us-east-2.compute.amazonaws.com
+Please note that in most cases the username above will be correct, however please ensure that you read your AMI usage instructions to ensure that the AMI owner has not changed the default AMI username.
+If you need any assistance connecting to your instance, please see our connection documentation.
+
+ssh -i newlaptop ubuntu@18.188.226.184
+Go to download folder 	
+
+C:\Users\jayesh\Downloads
+
+
+aws whitepapers
+acloud guru
+
+aws.amazon.com/certifcation
+
+s3 vs EBS vs EFS
+
+amazonwebservice
+aws certified solution ar
+aws faqs
